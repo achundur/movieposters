@@ -14,7 +14,7 @@ body, html{
 @font-face {
     font-family: Trickster-Regular;
     /* src: url(Trickster-Regular.woff); */
-    src: url(./webfonts-trickster) format('woff')
+    src: url('./webfonts-trickster') format('woff')
   }
   
   h1 {
@@ -39,7 +39,7 @@ body, html{
   @font-face {
     font-family: Lack-regular;
     /* src: url(Lack-Regular.woff); */
-    src: url(./Webfonts-lack/) format('woff')
+    src: url('./Webfonts-lack/') format('woff')
   }
 
 /* a{
