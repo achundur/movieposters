@@ -9,7 +9,14 @@ body, html{
 
 }
 
-
+/* testttt */
+#psycho-wrapper{
+    z-index: 2;
+    position: fixed;
+    width: 60%;
+    height: 50%;
+    right: 0;
+}
 
 @font-face {
     font-family: Trickster-Regular;
@@ -21,7 +28,7 @@ body, html{
     font-family: Trickster-Regular;
     color: white;
     text-transform:uppercase;
-    font-size: 150px;
+    font-size: 100px;
     line-height: 1.0;
     margin-bottom: 15px;
     padding-bottom: 15px;
@@ -42,14 +49,7 @@ body, html{
     src: url('./Webfonts-lack/') format('woff')
   }
 
-/* a{
-    font-family: Lack-regular;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 25px;
-    padding-top: 5px;
-    color: white;
-} */
+
 
 a{
     text-decoration: underline;
@@ -58,10 +58,12 @@ a{
 
 a.topnav{
     text-decoration: none;
+
 }
 
 a:hover{
-    color:#9d4dff
+    color:#9d4dff;
+
 }
 
 p, li{
@@ -108,6 +110,8 @@ hr {
 
 .main-column{
     flex-direction: column-reverse;
+    /* border-right:#f2f2f2;
+    border-width: 1px; */
 }
 
 /*****Menu Styling*****/
@@ -132,7 +136,7 @@ hr {
     padding: 10px 0px;
     margin: 1px 0px;
     border-bottom: 1px;
-    border-color:white
+    border-color:white;
   }
   
   /* Style the links inside the navigation bar */
@@ -144,15 +148,19 @@ hr {
     margin: 0px 5px;
     text-decoration: none;
     font-size: 16px;
-    font-family: Trickster-Regular;
+    /* font-family: Trickster-Regular; */
+    font-family: Lack-regular;
     text-transform: uppercase;
 
   }
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background: #a944fff7;
+    background-color: #a944fff7;
+    border-color: greenyellow;
     border-radius: 40px;
+    border-width: 2px;
+
 
     
   }
@@ -167,6 +175,7 @@ hr {
 .navbar-brand{
     font-family: Trickster-regular;
     font-size: 1.55rem;
+    text-decoration: none;
 }
 
 .navbar-toggler {
@@ -183,33 +192,47 @@ hr {
 }
 
 /* BREAKPOINTS FOR HEADINGS */
+/* @media (max-width: 992px){
+    h1{
+        font-size: 64px;
+    }
+    #dreamland #dreadful{
+        font-size:48px;
+      }
+    
+    }
+
+
+@media (min-width: 1160px){
+    h1{
+        font-size: 80px;
+    }
+    #dreamland #dreadful{
+        font-size: 85px;
+      }
+}
+
+@media(min-width: 1465px){
+    h1{
+        font-size: 100px;
+    }
+    #dreamland #dreadful{
+        font-size:110px;
+      }
+}  */
+
 @media (max-width: 992px){
     h1{
         font-size: 64px;
     }
-    #dreamland{
-        font-size:48px;
-      }
-    
 }
 
-@media (min-width: 992px){
+@media (max-width: 1024){
     h1{
-        font-size: 100px;
+        font-size: 80px;
     }
-    #dreamland{
-        font-size:85px;
-      }
-}
 
-@media(min-width: 1345px){
-    h1{
-        font-size: 150px;
-    }
-    #dreamland{
-        font-size:110px;
-      }
-} 
+}
 
 .poster{
     position: sticky;
@@ -236,11 +259,7 @@ hr {
     margin-right: 10px 20px;
   }
 
-  @media screen and (max-width: 600px){
-    .row{
-        flex-direction: column-reverse; 
-    }
-  }
+
   
   /* Create four equal columns that sits next to each other */
   .column {
@@ -258,49 +277,35 @@ hr {
   }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 800px) {
-    .column {
+  /* @media screen and (max-width: 950px) {
+    .column{
       flex: 50%;
       max-width: 50%;
     }
-  }
+  } */
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
+  @media screen and (max-width: 768px) {
+    .main-column {
       flex: 100%;
       max-width: 100%;
     }
+    .border-right{
+        border-width: 0px;
+    }
   }
 
+  /* MAIN COLUMN FIXED UR WEIRD RESPONSIVENESS ISSUE XOXO */
+
+  @media screen and (max-width: 768px){
+    .row{
+        flex-direction: column-reverse; 
+    }
+  }
+
+  
 /******************************/
 
-
-.by-artist{
-    font-family: "Helvetica";
-    font-style: normal;
-    font-weight: normal;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size:17px;
-    color: white;
-}
-
-a.learn-more-artist{
-    font-family: "Helvetica";
-    font-style: normal;
-    font-weight: normal;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size:17px;
-    color: white;
-    font-weight: bold; 
-    padding-bottom:10px; 
-}
-
-a.learn-more-artist:hover{
-    color: rgba(82, 81, 81, 1);
-}
 
 
 
@@ -329,14 +334,9 @@ a.learn-more-artist:hover{
 
 
 
-#titleandartist{
-    margin-top: 70px; 
-}
-
-
 /************GALLERY ITEM************/
 
-
+/* 
 #gItemIntro{
     padding-top: 100px;
 }
@@ -365,8 +365,8 @@ a.btn{
 }
 a.btn:hover{
     color: white;
-    border-color: white;
-}
+    border-color: white; */
+
 
 /**********ARTIST PROFILE************/
 
