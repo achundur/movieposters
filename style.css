@@ -18,14 +18,35 @@ body, html{
     right: 0;
 }
 
-@font-face {
+/* @font-face {
     font-family: Trickster-Regular;
-    /* src: url(Trickster-Regular.woff); */
     src: url('./webfonts-trickster') format('woff')
+  } */
+
+  /* @font-face {
+    font-family: Lack-regular;
+    src: url('./Webfonts-lack/') format('woff')
+  } */
+
+  /* hopefully an updated font */
+  @font-face {
+    font-family: "tricksterregular";
+    /* src: url(Trickster-Regular.woff); */
+    src: url('https://achundur.github.io/movieposters/css/fonts/tricksterregular.woff') format('woff')
   }
+
+  @font-face {
+    font-family: "lackregular";
+    /* src: url(Trickster-Regular.woff); */
+    src: url('https://achundur.github.io/movieposters/css/fonts/lackregular.woff') format('woff')
+  }
+
+  /* ************************* */
+  /* https://achundur.github.io/movieposters/home.html */
   
   h1 {
-    font-family: Trickster-Regular;
+    /* font-family: Trickster-Regular; */
+    font-family: "tricksterregular";
     color: white;
     text-transform:uppercase;
     font-size: 100px;
@@ -48,11 +69,7 @@ h2 {
     font-size: 24px;
     /* font-kerning: auto; */
   }
-  @font-face {
-    font-family: Lack-regular;
-    /* src: url(Lack-Regular.woff); */
-    src: url('./Webfonts-lack/') format('woff')
-  }
+
 
 
 
