@@ -56,8 +56,6 @@ body, html{
   /* https://achundur.github.io/movieposters/home.html */
   
   h1 {
-    /* font-family: Trickster-Regular; */
-    /* font-family: 'Trickster_Regular'; */
     font-family: Trickster-Regular;
     color: white;
     text-transform:uppercase;
