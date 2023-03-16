@@ -143,10 +143,26 @@ hr {
     
 }
 
+.artist-title{
+  /* border: solid; */
+  border-right: 1px solid #f2f2f2;
+}
+
+@media (max-width: 768px){
+  .artist-title{
+    border-right: 0px;
+  }
+
+
+
+}
+
 .main-column{
     flex-direction: column-reverse;
     padding-right: 0px;
     padding-bottom: 0px;
+    /* border-width: 1px; */
+    /* border-color:white; */
     /* border-right:#f2f2f2;
     border-width: 1px; */
 }
@@ -292,7 +308,8 @@ hr {
   }
 
 .about-section{
-    margin: 10px 50px;
+    margin: 10px;
+    /* taking out 50px left/right margins b/c weird on phones */
     border-top: white;
     border-width:2px;
 }
