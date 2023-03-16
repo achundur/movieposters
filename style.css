@@ -80,7 +80,10 @@ h2 {
     /* font-kerning: auto; */
   }
 
-
+h5{
+  font-family: Trickster-Regular;
+  color: white;
+}
 
 
 a{
@@ -196,6 +199,7 @@ hr {
     border-color: greenyellow;
     border-radius: 40px;
     border-width: 2px;
+    outline: 2px white;
 
 
     
@@ -206,6 +210,7 @@ hr {
     background-color: #a944fff7;
     color: white;
     border-radius: 40px;
+    outline: 2px white;
   }
 
 .navbar-brand{
@@ -242,13 +247,19 @@ hr {
 
 /* BREAKPOINTS FOR HEADINGS */
 
-@media (max-width: 992px){
+@media (max-width: 770px){
+  h1{
+      font-size: 42px;
+  }
+}
+
+@media (min-width: 771px) and (max-width: 992px){
     h1{
         font-size: 64px;
     }
 }
 
-@media (max-width: 1024){
+@media (min-width: 993px) and (max-width: 1200px){
     h1{
         font-size: 80px;
     }
@@ -263,13 +274,13 @@ hr {
     align-items: center;
     margin-bottom: auto;
     margin-top: auto;
-    transition: transform .2s;
+    /* transition: transform .2s; */
 }
 
 /* //This is used to control the animation speed and its duration */
-.poster:hover{
+/* .poster:hover{
     transform:scale(1.2);
-}
+} */
 
 /*homepage image gallery*/
 .row {
@@ -286,10 +297,10 @@ hr {
     border-width:2px;
 }
 .about-section h2{
-    text-align: end;
+    text-align:center;
 }
   
-  /* Create four equal columns that sits next to each other */
+  /* Create two equal columns that sits next to each other */
   .column {
     flex: 50%;
     max-width: 50%;
@@ -318,6 +329,14 @@ hr {
       flex: 100%;
       max-width: 100%;
     }
+
+    .column {
+      flex: 50%;
+      max-width: 80%;
+      padding: 10px 20px;
+      margin: 10px 0px;
+    }
+
     .border-right{
         border-width: 0px;
     }
