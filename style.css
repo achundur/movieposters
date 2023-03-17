@@ -5,6 +5,7 @@
 body, html{
     height: 100%;
     background-color: black;
+    font-size: 16px;
     
 
 }
@@ -126,8 +127,13 @@ hr {
     padding-top: 65px;
     padding-bottom: 65px;
     margin-right:20px;
-}
+} 
 
+.home-page-content{
+  padding-top: 65px;
+  padding-bottom: 65px;
+  margin-right:20px;
+}
 
 .footer-content{
     text-align: center;
@@ -153,6 +159,10 @@ hr {
     border-right: 0px;
   }
 
+  .about-section{
+    flex-direction: column;
+  }
+
 
 
 }
@@ -171,7 +181,7 @@ hr {
 
 .header-styling{
     border: 1px solid white;
-    border-radius: 50px;
+    border-radius: 1.5rem;
     margin: 10px;
     /* padding: 10px; */
     align-items: center;
@@ -211,7 +221,8 @@ hr {
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #a944fff7;
+    /* background-color: #a944fff7; */
+    background-color: #7b1ccef7;
     border-color: greenyellow;
     border-radius: 40px;
     border-width: 2px;
@@ -223,7 +234,7 @@ hr {
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #a944fff7;
+    background-color: #7b1ccef7;
     color: white;
     border-radius: 40px;
     outline: 2px white;
@@ -237,7 +248,7 @@ hr {
 
 .navbar-toggler {
     padding: 0.25rem 0.75rem;
-    font-size: 1.25rem;
+    font-size: 0.8rem;
     line-height: 1;
     /* background-color: #a543f8; */
     border: 1px solid white;
@@ -267,6 +278,9 @@ hr {
   h1{
       font-size: 42px;
   }
+  h2{
+    font-size: 36px;
+  }
 }
 
 @media (min-width: 771px) and (max-width: 992px){
@@ -295,7 +309,7 @@ hr {
 
 /* //This is used to control the animation speed and its duration */
 /* .poster:hover{
-    transform:scale(1.2);
+    transform:perspective()
 } */
 
 /*homepage image gallery*/
@@ -313,10 +327,19 @@ hr {
     border-top: white;
     border-width:2px;
 }
+#about-section{
+  border-right: 0px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
 .about-section h2{
     text-align:center;
 }
-  
+.page-content .about-section{
+  margin-right:0px;
+}
   /* Create two equal columns that sits next to each other */
   .column {
     flex: 50%;
@@ -365,7 +388,12 @@ hr {
     .row{
         flex-direction: column-reverse; 
     }
-  }
+  
+    .poster-wrapper{
+      flex-direction: column;
+      }
+    }
+  
 
   
 /******************************/
@@ -398,11 +426,13 @@ hr {
 }
 
 .poster-wrapper {
-    margin: 10px 50px;
+    margin: 0.75rem 3rem;
     width: 80%;
     margin-right: auto;
     margin-left: auto;
+    /* flex-direction: column; */
 }
+
 
 @media screen and (max-width: 1060px) {
     .poster-images-container {
