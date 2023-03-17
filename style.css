@@ -2,6 +2,11 @@
 /**BASICS**/
 
 /* source code (with edits) from: https://www.w3schools.com/howto/howto_css_full_page.asp */
+
+
+  /* ************************* */
+  /* https://achundur.github.io/movieposters/home.html */
+
 body, html{
     height: 100%;
     background-color: black;
@@ -19,11 +24,18 @@ body, html{
     right: 0;
 }
 
-@font-face {
-    font-family: Trickster-Regular;
+/* @font-face {
+    font-family: "Trickster-Regular";
     src: url('./webfonts-trickster') format('woff');
-  }
+  } */
 
+@font-face{
+  font-family:"Trickster-Regular";
+  src: url("https://https://achundur.github.io/movieposters/home.html/webfonts-trickster/fonts/Trickster-Regular.woff") format("woff");
+  src: url("https://https://achundur.github.io/movieposters/home.html/webfonts-trickster/fonts/Trickster-Regular.woff2") format("woff2");
+
+  }
+  
   /* @font-face {
     font-family: Lack-regular;
     src: url('./Webfonts-lack/') format('woff')
@@ -53,8 +65,7 @@ body, html{
     src: url('https://achundur.github.io/movieposters/css/fonts/lackregular.woff') format('woff')
   }
 
-  /* ************************* */
-  /* https://achundur.github.io/movieposters/home.html */
+
   
   h1 {
     font-family: "Trickster-Regular", serif;
@@ -68,21 +79,21 @@ body, html{
   }
 
 h2 {
-    font-family: Trickster-Regular;
+    font-family: "Trickster-Regular", serif;
     color: white;
     font-size:64px;
 
 }
 
   h4{
-    font-family: Trickster-Regular;
+    font-family: "Trickster-Regular", serif;
     color: white;
     font-size: 24px;
     /* font-kerning: auto; */
   }
 
 h5{
-  font-family: Trickster-Regular;
+  font-family: "Trickster-Regular", serif;
   color: white;
 }
 
