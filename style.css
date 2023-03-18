@@ -42,7 +42,7 @@ body, html{
 
 
   @font-face {
-    font-family: Lack-regular;
+    font-family: 'Lack-regular';
     src: url('./Webfonts-lack/') format('woff')
   }
 
@@ -50,7 +50,7 @@ body, html{
 
   
   h1 {
-    font-family: "Trickster_Regular", serif;
+    font-family: "Trickster-Regular", serif;
     color: white;
     text-transform:uppercase;
     font-size: 100px;
@@ -61,7 +61,7 @@ body, html{
   }
 
 h2 {
-    font-family: "Trickster_Regular", serif;
+    font-family: "Trickster-Regular", serif;
     color: white;
     font-size:64px;
 
