@@ -57,7 +57,7 @@ body, html{
 
   
   h1 {
-    font-family: "Trickster-Regular", serif;
+    font-family: "Trickster-Regular", 'UnifrakturCook', serif;
     color: white;
     text-transform:uppercase;
     font-size: 100px;
