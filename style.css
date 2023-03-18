@@ -29,23 +29,40 @@ body, html{
     src: url('./webfonts-trickster') format('woff');
   } */
 
-  @font-face {
-    font-family: "Trickster-Regular";
+  /* @font-face {
+    font-family: "Trickster-regular";
+    src: url('https://achundur.github.io/movieposters/webfonts-trickster/') format('woff');
     src: url('./webfonts-trickster') format('woff');
     src: url('./webfonts-trickster') format('woff2');
-    
-  }
+    src: url('Trickster-Regular.eot');
+    src: url('Trickster-Regular.eot?#iefix') format('embedded-opentype');
 
-/* 
+  } */
+
+
+  /* @font-face {
+    font-family: 'Trickster_Regular';
+    src:    url('./Trickster-Regular.eot');
+    src:    url('./webfonts-trickster') format('embedded-opentype'),
+            url('./webfonts-trickster') format('woff'),
+            url('./webfonts-trickster') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+
+
+
+
 @font-face {
-  font-family: 'Trickster_Regular';
+  font-family: 'Trickster-Regular';
   src:    url('Trickster-Regular.eot');
   src:    url('Trickster-Regular.eot?#iefix') format('embedded-opentype'),
           url('https://achundur.github.io/movieposters/webfonts-trickster/Trickster-Regular.woff') format('woff'),
           url('https://achundur.github.io/movieposters/webfonts-trickster/Trickster-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
-} */
+}
 
 
   @font-face {
@@ -57,7 +74,7 @@ body, html{
 
   
   h1 {
-    font-family: "Trickster-Regular", 'UnifrakturCook', serif;
+    font-family: "Trickster-Regular", 'UnifrakturCook', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
     text-transform:uppercase;
     font-size: 100px;
