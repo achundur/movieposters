@@ -46,6 +46,9 @@ body, html{
     font-style: normal;
 }
   
+
+
+
   /* @font-face {
     font-family: Lack-regular;
     src: url('./Webfonts-lack/') format('woff')
@@ -89,7 +92,7 @@ body, html{
   }
 
 h2 {
-    font-family: "Trickster-Regular", serif;
+    font-family: "Trickster_Regular", serif;
     color: white;
     font-size:64px;
 
@@ -279,6 +282,9 @@ hr {
 
 .navbar-toggler-icon{
     color:white;
+    width: 30px;
+    height: 1.5rem;
+
 }
 
 
