@@ -68,21 +68,21 @@ body, html{
   }
 
 h2 {
-    font-family: "Trickster-Regular", serif;
+    font-family: "Trickster-Regular", 'UnifrakturCook', serif;
     color: white;
     font-size:64px;
 
 }
 
   h4{
-    font-family: "Trickster-Regular", serif;
+    font-family: "Trickster-Regular", 'UnifrakturCook', serif;
     color: white;
     font-size: 24px;
     /* font-kerning: auto; */
   }
 
 h5{
-  font-family: "Trickster-Regular", serif;
+  font-family: "Trickster-Regular", 'UnifrakturCook', serif;
   color: white;
 }
 
@@ -103,7 +103,7 @@ a:hover{
 }
 
 p, li{
-    font-family: Lack-regular;
+    font-family: 'Lack-regular', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
