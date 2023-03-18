@@ -24,29 +24,12 @@ body, html{
     right: 0;
 }
 
-/* @font-face {
+@font-face {
     font-family: "Trickster-Regular";
     src: url('./webfonts-trickster') format('woff');
-  } */
+  }
 
-/* @font-face{
-  font-family:"Trickster-Regular";
-  src: url("https://https://achundur.github.io/movieposters/home.html/webfonts-trickster/Trickster-Regular.woff") format("woff");
-  src: url("https://https://achundur.github.io/movieposters/home.html/webfonts-trickster/Trickster-Regular.woff2") format("woff2");
-
-  } */
-
-  /* @font-face {
-    font-family: 'Trickster_Regular';
-    src:    url('Trickster-Regular.eot');
-    src:    url('Trickster-Regular.eot?#iefix') format('embedded-opentype'),
-            url('https://achundur.github.io/movieposters/home.html/webfonts-trickster/Trickster-Regular.woff') format('woff'),
-            url('https://achundur.github.io/movieposters/home.html/webfonts-trickster/Trickster-Regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-} */
-  
-
+/* 
 @font-face {
   font-family: 'Trickster_Regular';
   src:    url('Trickster-Regular.eot');
@@ -55,37 +38,14 @@ body, html{
           url('https://achundur.github.io/movieposters/webfonts-trickster/Trickster-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
-}
-
-
-  /* @font-face {
-    font-family: Lack-regular;
-    src: url('./Webfonts-lack/') format('woff')
-  } */
-
-  /* hopefully an updated font */
-  /* @font-face {
-    font-family: "tricksterregular";
-    src: url('https://achundur.github.io/movieposters/css/fonts/tricksterregular.woff') format('woff')
-  } */
-  
-  /* @font-face {
-    font-family: 'Trickster_Regular';
-    src:    url('Trickster-Regular.eot');
-    src:    url('Trickster-Regular.eot?#iefix') format('embedded-opentype');
-            url('Trickster-Regular.woff') format('woff'), 
-    src:     url(./webfonts-trickster) format('woff');
-             url('Trickster-Regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
 } */
 
 
   @font-face {
-    font-family: "lackregular";
-    /* src: url(Trickster-Regular.woff); */
-    src: url('https://achundur.github.io/movieposters/Webfonts-lack/lackregular.woff') format('woff');
+    font-family: Lack-regular;
+    src: url('./Webfonts-lack/') format('woff')
   }
+
 
 
   
