@@ -15,6 +15,10 @@ body, html{
 
 }
 
+::selection {
+  background: #9d4dff;
+}
+
 /* testttt */
 #psycho-wrapper{
     z-index: 2;
@@ -23,33 +27,6 @@ body, html{
     height: 50%;
     right: 0;
 }
-
-/* @font-face {
-    font-family: "Trickster-Regular";
-    src: url('./webfonts-trickster') format('woff');
-  } */
-
-  /* @font-face {
-    font-family: "Trickster-regular";
-    src: url('https://achundur.github.io/movieposters/webfonts-trickster/') format('woff');
-    src: url('./webfonts-trickster') format('woff');
-    src: url('./webfonts-trickster') format('woff2');
-    src: url('Trickster-Regular.eot');
-    src: url('Trickster-Regular.eot?#iefix') format('embedded-opentype');
-
-  } */
-
-
-  /* @font-face {
-    font-family: 'Trickster_Regular';
-    src:    url('./Trickster-Regular.eot');
-    src:    url('./webfonts-trickster') format('embedded-opentype'),
-            url('./webfonts-trickster') format('woff'),
-            url('./webfonts-trickster') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-} */
-
 
 
 
@@ -285,7 +262,7 @@ hr {
   /* Change the color of links on hover */
   .topnav a:hover {
     /* background-color: #a944fff7; */
-    background-color: #7b1ccef7;
+    background-color: #9d4dff;
     border-color: greenyellow;
     border-radius: 40px;
     border-width: 2px;
@@ -297,7 +274,7 @@ hr {
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #7b1ccef7;
+    background-color: #9d4dff;
     color: white;
     border-radius: 40px;
     outline: 2px white;
