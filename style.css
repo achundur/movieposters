@@ -29,23 +29,23 @@ body, html{
     src: url('./webfonts-trickster') format('woff');
   } */
 
-@font-face{
+/* @font-face{
   font-family:"Trickster-Regular";
   src: url("https://https://achundur.github.io/movieposters/home.html/webfonts-trickster/Trickster-Regular.woff") format("woff");
   src: url("https://https://achundur.github.io/movieposters/home.html/webfonts-trickster/Trickster-Regular.woff2") format("woff2");
 
-  }
+  } */
 
-  /* @font-face {
+  @font-face {
     font-family: 'Trickster_Regular';
     src:    url('Trickster-Regular.eot');
     src:    url('Trickster-Regular.eot?#iefix') format('embedded-opentype'),
-            url('Trickster-Regular.woff') format('woff'),
-            url('Trickster-Regular.woff2') format('woff2');
+            url('https://https://achundur.github.io/movieposters/home.html/webfonts-trickster/Trickster-Regular.woff') format('woff'),
+            url('https://https://achundur.github.io/movieposters/home.html/webfonts-trickster/Trickster-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
-   */
+  
   /* @font-face {
     font-family: Lack-regular;
     src: url('./Webfonts-lack/') format('woff')
@@ -272,7 +272,7 @@ hr {
     font-size: 0.8rem;
     line-height: 1;
     /* background-color: #a543f8; */
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 1.25rem;
     
 }
