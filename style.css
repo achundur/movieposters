@@ -24,9 +24,16 @@ body, html{
     right: 0;
 }
 
-@font-face {
+/* @font-face {
     font-family: "Trickster-Regular";
     src: url('./webfonts-trickster') format('woff');
+  } */
+
+  @font-face {
+    font-family: "Trickster-Regular";
+    src: url('./webfonts-trickster') format('woff');
+    src: url('./webfonts-trickster') format('woff2');
+    
   }
 
 /* 
