@@ -182,11 +182,9 @@ hr {
     margin-top: 5px;
 }
 
-.footer-content li{
-    list-style: none;
-    font-size: 14px;
-    /* text-align: left; */
-    
+.footer .a {
+  font-family: 'Lack-regular', 'Noto Sans JP', sans-serif;
+  text-decoration: none;
 }
 
 .artist-title{
@@ -244,41 +242,89 @@ hr {
   }
   
   /* Style the links inside the navigation bar */
-  .topnav a {
-    /* float: center; */
+  /* .topnav a {
+
     color: #f2f2f2;
     text-align: center;
     padding: 5px 15px;
     margin: 0px 5px;
     text-decoration: none;
     font-size: 16px;
-    /* font-family: Trickster-Regular; */
-    /* font-family: Lack-regular; */
+
     font-family: 'Trickster-Regular', 'UnifrakturCook', serif;
     text-transform: uppercase;
 
-  }
+  } */
+
   
   /* Change the color of links on hover */
-  .topnav a:hover {
-    /* background-color: #a944fff7; */
+  /* .topnav a:hover {
+  
     background-color: #9d4dff;
     border-color: greenyellow;
-    border-radius: 40px;
-    border-width: 2px;
-    outline: 2px white;
-
-
+    border-radius: 1.25rem;
+    border-width: 1px;
+    outline: 1px white;
     
-  }
+  } */
   
   /* Add a color to the active/current link */
-  .topnav a.active {
+  /* .topnav a.active {
     background-color: #9d4dff;
     color: white;
     border-radius: 40px;
     outline: 2px white;
+  } */
+
+  /* ALERT replaces the topnav classes (don't work with new dropdown) */
+  .nav-link{
+    font-family: 'Trickster-Regular', 'UnifrakturCook', serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
   }
+
+  .nav-link a.active {
+    background-color: #9d4dff;
+
+  }
+
+  .dropdown-menu {
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.5rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: black;
+    background-clip: padding-box;
+    border: 1px solid white;
+    border-radius: 1.25rem;
+  }
+.dropdown-item {
+  font-family: 'Trickster-Regular', 'UnifrakturCook', serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+/* .dropdown-item :hover{
+  background-color: #9d4dff;
+  border-color: greenyellow;
+  border-radius: 1.25rem;
+  border-width: 1px;
+  outline: 1px white;
+} */
+
+.dropdown-item:focus{
+  background-color: #9d4dff;
+}
+
+  /* END of ALERT */
 
 .navbar-brand{
     font-family: 'Trickster-regular', 'UnifrakturCook';
@@ -334,7 +380,7 @@ hr {
 
 @media (min-width: 993px) and (max-width: 1200px){
     h1{
-        font-size: 80px;
+        font-size: 100px;
     }
 
 }
