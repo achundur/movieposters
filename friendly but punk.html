@@ -29,6 +29,10 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
 
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+
     <meta name="galleryIndex" content=1>
 	<title>Friendly but punk</title>
   <link rel="icon" type="image/x-icon" href="favicon.png">
@@ -36,28 +40,66 @@
 	</head>
 
     <header class="header-styling">
+      <nav class="navbar navbar-expand-lg">
+        <img src="favicon.png" width="40" height="40" class="d-inline-block align-top" alt="" style="margin-right: 5px">
+        <!-- <div class="container-fluid"> -->
+          
+          <a class="navbar-brand" href="home.html">KNIFEY MATERIALS</a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><img src="Star 1.svg"> </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <!-- <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li> -->
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li> -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Series 1
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="not a psycho.html">Not a Psycho</a></li>
+                  <li><a class="dropdown-item" href="dreamland.html">Dreamland</a></li>
+                  <!-- <li><hr class="dropdown-divider"></li> -->
+                  <li><a class="dropdown-item" href="friendly but punk.html">Friendly but Punk</a></li>
+                  <li><a class="dropdown-item" href="dreadful.html">You Look Dreadful</a></li>
+                  <li><a class="dropdown-item" href="rudest little girl.html">Rudest Little Girl</a></li>
 
-        <nav class="navbar navbar-expand-lg ">
-            <a class="navbar-brand" href="home.html">
-                <img src="favicon.png" width="40" height="40" class="d-inline-block align-top" alt="">
-                Poster Project
-              </a>
-            <!-- <a class="navbar-brand" href="home.html">Poster Project</a> -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"><img src="Star 1.svg"> </span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav topnav">
-                <!-- <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a> -->
-                <a class="nav-item nav-link " href="not a psycho.html">Not a Psycho</a>
-                <a class="nav-item nav-link" href="dreamland.html">Dreamland</a>
-                <a class="nav-item nav-link active " href="friendly but punk.html">Friendly but Punk<span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link " href="dreadful.html">You look dreadful</a>
-                <a class="nav-item nav-link " href="rudest little girl.html">The rudest little girl</a>
+                </ul>
+              </li>
 
-              </div>
-            </div>
-          </nav>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Series 2
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="insomniac.html">Insomniac</a></li>
+                  <li><a class="dropdown-item" href="hateful.html">Hateful One</a></li>
+                  <!-- <li><hr class="dropdown-divider"></li> -->
+                  <li><a class="dropdown-item" href="enigma.html">Enigma</a></li>
+                  <li><a class="dropdown-item" href="cheese queen.html">Cheese Queen</a></li>
+
+                </ul>
+              </li>
+
+
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li> -->
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        <!-- </div> -->
+      </nav>
+
+
     </header>
 
     <body>
@@ -150,13 +192,14 @@
     <footer class="container-fluid" >
 
 
+
       <footer class="row py-5 my-5 border-top">
         <div class="col">
           <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
             <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
           </a>
           <a href="home.html">
-            <p style="font-family: Trickster-regular">© Poster Project</p>
+            <p style="font-family: Trickster-regular">© Knifey Materials 2023</p>
           </a>
 
         </div>
@@ -168,11 +211,12 @@
         <div class="col">
           <h5>More Posters</h5>
           <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="not a psycho.html" class="nav-link p-0 text-muted">Not a Psycho</a></li>
-            <li class="nav-item mb-2"><a href="dreamland.html" class="nav-link p-0 text-muted">Dreamland</a></li>
-            <li class="nav-item mb-2"><a href="friendly but punk.html" class="nav-link p-0 text-muted">Friendly but Punk</a></li>
-            <li class="nav-item mb-2"><a href="dreadful.html" class="nav-link p-0 text-muted">You Look Dreadful</a></li>
-            <li class="nav-item mb-2"><a href="rudest little girl.html" class="nav-link p-0 text-muted">Rudest Little Girl</a></li>
+            <li class="nav-item mb-2"><a href="not a psycho.html" class=" p-0 text-muted">Not a Psycho</a></li>
+            <li class="nav-item mb-2"><a href="dreamland.html" class=" p-0 text-muted">Dreamland</a></li>
+            <li class="nav-item mb-2"><a href="friendly but punk.html" class="p-0 text-muted">Friendly but Punk</a></li>
+
+            <li class="nav-item mb-2"><a href="dreadful.html" class="p-0 text-muted">You Look Dreadful</a></li>
+            <li class="nav-item mb-2"><a href="rudest little girl.html" class="p-0 text-muted">Rudest Little Girl</a></li>
           </ul>
         </div>
         
@@ -184,8 +228,8 @@
 
         <div class="col">
           <h5>Find me here</h5>
-          <p class="text-muted"><a class="nav-link p-0 text-muted" href="https://www.instagram.com/adhitic/?hl=en">Instagram</a></p>
-          <p class="text-muted"> <a class="nav-link p-0 text-muted" href="https://www.behance.net/adhiti">Behance</a></p>
+          <p class="text-muted"><a class=" p-0 text-muted" target="_blank" href="https://www.instagram.com/adhitic/?hl=en">Instagram</a></p>
+          <p class="text-muted"> <a class=" p-0 text-muted" target="_blank" href="https://www.behance.net/adhiti">Behance</a></p>
 
 
           <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
