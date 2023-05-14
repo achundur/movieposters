@@ -328,12 +328,12 @@ hr {
 
 .navbar-brand{
     font-family: 'Trickster-regular', 'UnifrakturCook';
-    font-size: 1.55rem;
+    font-size: 1.35rem;
     text-decoration: none;
 }
 
 .navbar-toggler {
-    padding: 0.25rem 0.75rem;
+    padding: 0.25rem 0.5rem;
     font-size: 0.8rem;
     line-height: 1;
     /* background-color: #a543f8; */
@@ -472,7 +472,7 @@ hr {
   }
 
   #favicon{
-    display: none;
+    display: none !important;
   }
 
   /* MAIN COLUMN FIXED UR WEIRD RESPONSIVENESS ISSUE XOXO */
