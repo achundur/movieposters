@@ -410,6 +410,11 @@ hr {
     margin-right: 10px 20px;
   }
 
+.gallery{
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
 .about-section{
     margin: 10px;
     /* taking out 50px left/right margins b/c weird on phones */
