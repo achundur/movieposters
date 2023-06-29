@@ -276,6 +276,8 @@ hr {
     outline: 2px white;
   } */
 
+
+  
   /* ALERT replaces the topnav classes (don't work with new dropdown) */
   .nav-link{
     font-family: 'Trickster-Regular', 'UnifrakturCook', serif;
@@ -312,6 +314,7 @@ hr {
   text-decoration: none;
   color: white;
 }
+
 /* .dropdown-item :hover{
   background-color: #9d4dff;
   border-color: greenyellow;
@@ -549,5 +552,18 @@ hr {
 
 }
 
+
+#more-button:hover {
+  color: black;
+  /* font-family: Trickster-regular; 
+  size: 1.75 rem;
+  text-decoration: none; */
+}
+
+#more-button {
+  font-family: Trickster-regular; 
+  size: 1.75 rem;
+  text-decoration: none;
+}
 
 /* https://stackoverflow.com/questions/14962468/how-can-i-combine-flexbox-and-vertical-scroll-in-a-full-height-app */
