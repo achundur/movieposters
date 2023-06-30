@@ -189,6 +189,15 @@ hr {
     margin-top: 5px;
 }
 
+/* centered footer elements */
+footer .col {
+
+    text-align: center;
+}
+
+/*  */
+
+
 .a{
   .footer{
     font-family: 'Lack-regular', 'Noto Sans JP', sans-serif;
