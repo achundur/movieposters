@@ -510,16 +510,7 @@ footer .col {
 
   /* MAIN COLUMN FIXED UR WEIRD RESPONSIVENESS ISSUE XOXO */
 
-  @media screen and (max-width: 768px){
-    .row{
-        flex-direction: column-reverse; 
-    }
-  
-    .poster-wrapper{
-      flex-direction: column;
-      }
-    }
-  
+
 
   
 /******************************/
@@ -553,7 +544,7 @@ footer .col {
 
 .poster-wrapper {
     margin: 0.75rem 3rem;
-    width: 80%;
+    width: 85%;
     margin-right: auto;
     margin-left: auto;
     /* flex-direction: column; */
@@ -566,6 +557,18 @@ footer .col {
       max-width: 100%;
     }
   }
+
+  @media screen and (max-width: 768px){
+    .row{
+        flex-direction: column-reverse; 
+    }
+  
+    .poster-wrapper{
+      flex-direction: column;
+      width:100%;
+      }
+    }
+  
 
 .poster-images{
     flex: 1 1 auto;
