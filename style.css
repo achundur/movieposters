@@ -99,7 +99,7 @@ body, html{
   h1 {
     font-family: "Trickster-Regular", 'UnifrakturCook', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
-    text-transform:uppercase;
+    /* text-transform:uppercase; */
     font-size: 60px;
     line-height: 1.0;
     margin-bottom: 15px;
@@ -153,7 +153,7 @@ p, li{
     font-family: 'Lack-regular', 'Noto Sans JP', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 25px;
     padding-top: 5px;
     color: white;
@@ -306,7 +306,7 @@ footer .col {
   /* ALERT replaces the topnav classes (don't work with new dropdown) */
   .nav-link{
     font-family: 'Trickster-Regular', 'UnifrakturCook', serif;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-decoration: none;
     color: white;
   }
@@ -324,7 +324,7 @@ footer .col {
     min-width: 10rem;
     padding: 0.5rem 0;
     margin: 0.5rem 0 0;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #212529;
     text-align: left;
     list-style: none;
@@ -335,7 +335,7 @@ footer .col {
   }
 .dropdown-item {
   font-family: 'Trickster-Regular', 'UnifrakturCook', serif;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-decoration: none;
   color: white;
 }
