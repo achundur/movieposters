@@ -583,6 +583,7 @@ footer .col {
 
 #more-button:hover {
   color: black;
+  size: 2.75 rem;
   /* font-family: Trickster-regular; 
   size: 1.75 rem;
   text-decoration: none; */
@@ -590,7 +591,8 @@ footer .col {
 
 #more-button {
   font-family: Trickster-regular; 
-  size: 1.75 rem;
+  /* size: 1.75 rem; */
+  font-size: 24px;
   text-decoration: none;
 }
 
